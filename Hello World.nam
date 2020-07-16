@@ -5,19 +5,12 @@ start {
 	    value = 111
 close }
 
-[comment : start adalah server tunggal yang memuat type data variabel dari memori server output]
-
+#comment : start is a single server that contains variable data types from the output server memory#
 call { 
       111 = Hello Word!
        output = value 
 close }
 
-[comment : call adalah client server yang memanggil type data variabel output]
- 
- 
- Display 
+[comment : call is a server client that is invited to the variable output data type]
 
-call server 
- Hello Word!
- 
  
