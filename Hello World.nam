@@ -1,0 +1,23 @@
+.nam
+start {
+      server basic = start + 111 = start
+       value basic = server basic = 111
+	    value = 111
+close }
+
+[comment : start adalah server tunggal yang memuat type data variabel dari memori server output]
+
+call { 
+      111 = Hello Word!
+       output = value 
+close }
+
+[comment : call adalah client server yang memanggil type data variabel output]
+ 
+ 
+ Display 
+
+call server 
+ Hello Word!
+ 
+ 
